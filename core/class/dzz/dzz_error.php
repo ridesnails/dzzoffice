@@ -187,6 +187,7 @@ class dzz_error
 <head>
 	<title>$host - $title Error</title>
 	<meta http-equiv="Content-Type" content="text/html; charset={$_G['config']['output']['charset']}" />
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
 	<meta name="ROBOTS" content="NOINDEX,NOFOLLOW,NOARCHIVE" />
 	<style type="text/css">
 	<!--
