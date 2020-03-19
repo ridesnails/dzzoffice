@@ -28,6 +28,7 @@ $message = <<<EOT
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=$_G[charset]">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
 <title>$subject</title>
 </head>
 <body>
