@@ -463,6 +463,7 @@ function show_header() {
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=$charset" />
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
 <title>$title</title>
 <link rel="stylesheet" href="images/style.css" type="text/css" media="all" />
 <script type="text/javascript">
