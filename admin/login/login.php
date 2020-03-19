@@ -74,6 +74,7 @@ function html_login_header($form = true) {
 <title>$title</title>
 <base href="{$_G['siteurl']}">
 <meta http-equiv="Content-Type" content="text/html;charset=$charset" />
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css" type="text/css" media="all" />
 <link rel="stylesheet" href="admin/login/images/adminlogin.css" type="text/css" media="all" />
