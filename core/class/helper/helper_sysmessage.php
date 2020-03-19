@@ -18,6 +18,7 @@ class helper_sysmessage {
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=$charset" />
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
 <title>$title</title>
 <meta name="keywords" content="" />
 <meta name="description" content="System Message - DzzOffice" />
