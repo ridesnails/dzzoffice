@@ -294,6 +294,7 @@ EOT;
 <head>
 	<title>$host - $title Error</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
 	<meta name="ROBOTS" content="NOINDEX,NOFOLLOW,NOARCHIVE" />
 	<style type="text/css">
 	<!--
