@@ -315,6 +315,7 @@ class PHPExcel_Writer_HTML extends PHPExcel_Writer_Abstract implements PHPExcel_
 		$html .= '<html>' . PHP_EOL;
 		$html .= '  <head>' . PHP_EOL;
 		$html .= '	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">' . PHP_EOL;
+		$html .= '        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />' . PHP_EOL;
 		if ($properties->getTitle() > '')
 			$html .= '	  <title>' . htmlspecialchars($properties->getTitle()) . '</title>' . PHP_EOL;
 
